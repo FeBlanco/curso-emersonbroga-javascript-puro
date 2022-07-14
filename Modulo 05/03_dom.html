@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Felipe Blanco</h1>
+    <div class="container">
+        <p>
+            One Piece segue a história de um grupo de piratas liderado por Monkey D. Luffy. 
+            O garoto, que possui um corpo elástico, pretende se tornar o Rei dos Piratas e para isso deve encontrar o One Piece, tesouro misterioso capaz de torná-lo imbatível.
+        </p>
+    </div>
+    <div id="root">
+        As aventuras de Monkey D. Luffy e seus amigos
+
+    </div>
+
+    <script>
+        function chandeHeading() {
+        const headings = document.getElementsByTagName('h1');
+        const firstHeading = headings && headings[0] ? headings[0] : null;
+        firstHeading.innerText = 'GUARDA'
+        }
+        setTimeout(chandeHeading, 2000);
+
+        const containers = document.getElementsByClassName('container');
+        const container = containers && containers[0] ? containers[0] : null;
+
+        container.style.backgroundColor = 'green';
+        container.style.padding = '10px';
+
+        const root = document.querySelector('#root');
+        root.innerHTML = 'Aprendendo a Manipular o DOM'
+
+    </script>
+
+</body>
+</html>

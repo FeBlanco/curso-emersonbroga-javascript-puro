@@ -1,0 +1,11 @@
+/*
+    == Tipos de Dados ==
+    Undefined -> Uma váriavel sem definição
+    null -> Valor vazio nulo
+    boolean -> true ou false
+    string -> Qualquer texto dês que ele esteja entre "" ''
+    symbol -> valor primitivo unico ou imutavel
+    number -> é um numero inteiro ou real
+    object -> chave e valor {key: valor} 
+    array -> ['a', 'b', 'c', 'd', 'e']
+    */ 
